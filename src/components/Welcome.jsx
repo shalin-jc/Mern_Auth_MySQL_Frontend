@@ -41,7 +41,7 @@ export function Welcome(props) {
             <img src={user.avatar? user.avatar : '/user.png'} alt="preview" className='w-full h-full object-cover' />
           </label>
           <div className="mb-5">
-            <h2 className='text-6xl'>Hello {user ? user.name: "Developers"} </h2>
+            <h2 className='text-6xl'>Hello {user ? user.name: "Developers!"} </h2>
           </div>
             <h1 className='text-3xl'>Welecome to<span className="text-blue-500 cursor-pointer"> Coders.com</span></h1>
             <button className="btn w-100 text-center">Get Started</button>
