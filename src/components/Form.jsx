@@ -77,6 +77,7 @@ export function Form(props) {
     return (
         <div className="form border rounded-2xl">
            <div onClick={()=>navigate('/')} className="x">x</div>
+           <h2>Hello user</h2>
             <h1> Login an Account</h1>
             <form onSubmit={onSubmitHandler} className='w-full flex flex-col align-items-center' >
             
